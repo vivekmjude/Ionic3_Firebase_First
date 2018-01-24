@@ -32,7 +32,7 @@ export class AddShoppingItemPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad AddShoppingItemPage');
   }
-  addItem(item:Item){
+  addItem(item:Item) {
     this.shopping.addItem(item).then(ref => {
       this.toast.show(`${item.name} added!`);
       this.navCtrl.setRoot('HomePage',{ key: ref.key})
