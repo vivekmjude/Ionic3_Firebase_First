@@ -1,0 +1,1 @@
+npm install angularfire2 firebase promise-polyfill --save  --> In project folder for error (can't find module angularfire2)
